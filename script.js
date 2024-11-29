@@ -1,3 +1,5 @@
+import config from './config.js';
+
 document.addEventListener('DOMContentLoaded', () => {
     // Initialize AOS
     AOS.init({
@@ -82,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize EmailJS with error handling
     try {
-        emailjs.init("u6gP9pYolFH6NPlx-");
+        emailjs.init(config.emailjs.publicKey);
     } catch (error) {
         console.error('EmailJS initialization failed:', error);
     }

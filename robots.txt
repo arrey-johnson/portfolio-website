@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://arreyjohnson.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
