@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrey Johnson | Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <a href="#home" class="logo">
+                    <i class="fas fa-code"></i>
+                    <span>Johnson</span>
+                </a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+            <div class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="overlay"></div>
+            <div class="shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-intro">
+                    <span class="greeting">Hello World! I'm</span>
+                    <h1>Arrey Johnson</h1>
+                    <div class="title-wrapper">
+                        <span class="static-text">I'm a</span>
+                        <ul class="dynamic-texts">
+                            <li><span>Python Developer</span></li>
+                            <li><span>React Developer</span></li>
+                            <li><span>Tech Consultant</span></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <p class="hero-description">
+                    I craft beautiful, intuitive digital experiences that solve real-world problems. 
+                    With a passion for clean code and creative design, I help businesses transform their ideas into reality.
+                </p>
+                
+                <div class="cta-group">
+                    <a href="#projects" class="cta-button primary">View My Work</a>
+                    <a href="#contact" class="cta-button secondary">Get In Touch</a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Projects Done</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">200+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="images/arrey-johnson.jpeg" alt="Arrey Johnson">
+                    <div class="floating-card card-1">
+                        <i class="fas fa-code"></i>
+                        <span>Clean Code</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-paint-brush"></i>
+                        <span>Creative Design</span>
+                    </div>
+                    <div class="experience-badge">
+                        <span class="number">5+</span>
+                        <span class="text">Years of Experience</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrows">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <main>
+            <section id="about" class="about">
+                <div class="section-background">
+                    <div class="overlay"></div>
+                    <div class="shapes">
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                    </div>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <span class="section-subtitle">About Me</span>
+                        <div class="section-header">
+                            <h2>Innovative Solutions,<br>Exceptional Results</h2>
+                        </div>
+                        <p class="about-description">
+                            I am a passionate software engineer with a deep love for creating elegant solutions to complex problems. 
+                            With expertise in full-stack development and a keen eye for design, I craft digital experiences that not 
+                            only look beautiful but also deliver exceptional functionality.
+                        </p>
+                        
+                        <div class="experience-grid">
+                            <div class="experience-item" data-aos="fade-up">
+                                <i class="fas fa-code"></i>
+                                <h3>Web Development</h3>
+                                <p>Building modern, responsive websites and web applications using cutting-edge technologies.</p>
+                            </div>
+                            <div class="experience-item" data-aos="fade-up" data-aos-delay="100">
+                                <i class="fas fa-mobile-alt"></i>
+                                <h3>Mobile Development</h3>
+                                <p>Creating native and cross-platform mobile applications that provide seamless user experiences.</p>
+                            </div>
+                            <div class="experience-item" data-aos="fade-up" data-aos-delay="200">
+                                <i class="fas fa-server"></i>
+                                <h3>Backend Development</h3>
+                                <p>Developing robust server-side solutions and APIs that power modern applications.</p>
+                            </div>
+                            <div class="experience-item" data-aos="fade-up" data-aos-delay="300">
+                                <i class="fas fa-paint-brush"></i>
+                                <h3>UI/UX Design</h3>
+                                <p>Designing intuitive user interfaces and experiences that delight users and drive engagement.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-stack">
+                            <h3>Technologies I Work With</h3>
+                            <div class="tech-tags">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Django</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Docker</span>
+                                <span class="tech-tag">AWS</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-image">
+                        <div class="image-container">
+                            <img src="images/aboutpic.jpg" alt="About Me">
+                        </div>
+                        <div class="floating-stat stat-1">
+                            <i class="fas fa-code-branch"></i>
+                            <div class="stat-content">
+                                <span class="stat-number">500+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                        </div>
+                        <div class="floating-stat stat-2">
+                            <i class="fas fa-smile"></i>
+                            <div class="stat-content">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Satisfaction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="slider-section">
+                <div class="section-background">
+                    <div class="overlay"></div>
+                    <div class="shapes">
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                    </div>
+                </div>
+                
+                <div class="section-content">
+                    <div class="section-header" data-aos="fade-up">
+                        <span class="section-subtitle">Featured Work</span>
+                        <h2>Recent Projects</h2>
+                        <p>Explore some of my recent projects and achievements that showcase my expertise and creativity.</p>
+                    </div>
+                    
+                    <div class="slider-container" data-aos="fade-up">
+                        <div class="slider-wrapper">
+                            <div class="slider-track">
+                                <div class="slider-item">
+                                    <div class="slider-card">
+                                        <div class="slider-image">
+                                            <img src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="E-commerce Platform">
+                                        </div>
+                                        <div class="slider-content">
+                                            <h3>E-commerce Platform</h3>
+                                            <p>A full-featured online shopping platform with real-time inventory management.</p>
+                                            <div class="project-tags">
+                                                <span class="tech-tag">React</span>
+                                                <span class="tech-tag">Node.js</span>
+                                                <span class="tech-tag">MongoDB</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slider-item">
+                                    <div class="slider-card">
+                                        <div class="slider-image">
+                                            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="AI Image Generator">
+                                        </div>
+                                        <div class="slider-content">
+                                            <h3>AI Image Generator</h3>
+                                            <p>An AI-powered application that generates unique images from text descriptions.</p>
+                                            <div class="project-tags">
+                                                <span class="tech-tag">Python</span>
+                                                <span class="tech-tag">TensorFlow</span>
+                                                <span class="tech-tag">Flask</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slider-item">
+                                    <div class="slider-card">
+                                        <div class="slider-image">
+                                            <img src="https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Smart Home Dashboard">
+                                        </div>
+                                        <div class="slider-content">
+                                            <h3>Smart Home Dashboard</h3>
+                                            <p>A modern IoT dashboard for monitoring and controlling smart home devices.</p>
+                                            <div class="project-tags">
+                                                <span class="tech-tag">Vue.js</span>
+                                                <span class="tech-tag">Firebase</span>
+                                                <span class="tech-tag">IoT</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slider-item">
+                                    <div class="slider-card">
+                                        <div class="slider-image">
+                                            <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Fitness Tracking App">
+                                        </div>
+                                        <div class="slider-content">
+                                            <h3>Fitness Tracking App</h3>
+                                            <p>A mobile app for tracking workouts and monitoring fitness progress.</p>
+                                            <div class="project-tags">
+                                                <span class="tech-tag">React Native</span>
+                                                <span class="tech-tag">GraphQL</span>
+                                                <span class="tech-tag">AWS</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="slider-nav">
+                            <button class="nav-button prev" aria-label="Previous slide">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button class="nav-button next" aria-label="Next slide">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="projects">
+                <div class="section-background">
+                    <div class="overlay"></div>
+                    <div class="shapes">
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                    </div>
+                </div>
+                
+                <div class="section-content">
+                    <div class="section-header" data-aos="fade-up">
+                        <span class="section-subtitle">Portfolio</span>
+                        <h2>All Projects</h2>
+                        <p>A comprehensive collection of my work showcasing various technologies and solutions.</p>
+                    </div>
+                    
+                    <div class="projects-grid" data-aos="fade-up">
+                        <!-- E-commerce Platform -->
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="E-commerce Platform">
+                                <div class="project-overlay">
+                                    <a href="#" class="view-project">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3>E-commerce Platform</h3>
+                                <p>A full-featured online shopping platform with real-time inventory management.</p>
+                                <div class="project-tags">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- AI Image Generator -->
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="AI Image Generator">
+                                <div class="project-overlay">
+                                    <a href="#" class="view-project">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3>AI Image Generator</h3>
+                                <p>An AI-powered application that generates unique images from text descriptions.</p>
+                                <div class="project-tags">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">TensorFlow</span>
+                                    <span class="tech-tag">Flask</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Smart Home Dashboard -->
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Smart Home Dashboard">
+                                <div class="project-overlay">
+                                    <a href="#" class="view-project">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3>Smart Home Dashboard</h3>
+                                <p>A modern IoT dashboard for monitoring and controlling smart home devices.</p>
+                                <div class="project-tags">
+                                    <span class="tech-tag">Vue.js</span>
+                                    <span class="tech-tag">Firebase</span>
+                                    <span class="tech-tag">IoT</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Fitness Tracking App -->
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Fitness Tracking App">
+                                <div class="project-overlay">
+                                    <a href="#" class="view-project">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3>Fitness Tracking App</h3>
+                                <p>A mobile app for tracking workouts and monitoring fitness progress.</p>
+                                <div class="project-tags">
+                                    <span class="tech-tag">React Native</span>
+                                    <span class="tech-tag">GraphQL</span>
+                                    <span class="tech-tag">AWS</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Social Media Analytics -->
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Social Media Analytics">
+                                <div class="project-overlay">
+                                    <a href="#" class="view-project">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3>Social Media Analytics</h3>
+                                <p>Advanced analytics dashboard for tracking social media performance.</p>
+                                <div class="project-tags">
+                                    <span class="tech-tag">Angular</span>
+                                    <span class="tech-tag">Django</span>
+                                    <span class="tech-tag">Redis</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Weather Forecast App -->
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1561484930-998b6a7b22e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Weather Forecast App">
+                                <div class="project-overlay">
+                                    <a href="#" class="view-project">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3>Weather Forecast App</h3>
+                                <p>Real-time weather forecasting app with interactive maps and alerts.</p>
+                                <div class="project-tags">
+                                    <span class="tech-tag">Svelte</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">WebGL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="contact">
+                <div class="section-background">
+                    <div class="overlay"></div>
+                    <div class="shapes">
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                    </div>
+                </div>
+                
+                <div class="section-content">
+                    <div class="section-header" data-aos="fade-up">
+                        <span class="section-subtitle">Get in Touch</span>
+                        <h2>Let's Work Together</h2>
+                        <p>Have a project in mind? Let's discuss how we can bring your ideas to life.</p>
+                    </div>
+                    
+                    <div class="contact-container" data-aos="fade-up">
+                        <div class="contact-info">
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <div class="info-content">
+                                    <h3>Email</h3>
+                                    <p>mail@arreyjohnson.com</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <div class="info-content">
+                                    <h3>Phone</h3>
+                                    <p>+237 677 900 379</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="info-content">
+                                    <h3>Location</h3>
+                                    <p>Douala, Cameroon</p>
+                                </div>
+                            </div>
+                            
+                            <div class="social-links">
+                                <a href="https://github.com/arrey-johnson" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/arrey-johnson-ndip-3a5124275/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://x.com/weblord_" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/arrey.johnson/" class="social-link"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        
+                        <form id="contact-form" class="contact-form" data-aos="fade-up">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <i class="fas fa-code"></i>
+                        <span>Johnson</span>
+                    </a>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://github.com/arrey-johnson" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/arrey-johnson-ndip-3a5124275/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/weblord_" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/arrey.johnson/" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+
+                <div class="footer-copyright">
+                    <p>&copy; 2024 Arrey Johnson. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a href="https://wa.me/237677900379" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
